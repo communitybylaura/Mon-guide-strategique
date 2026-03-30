@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Optimise ton Instagram comme une pro - Community By Laura</title>
+  <meta name="description" content="Audite ton Instagram toi-même avec la méthode d'une CM pro. Guide complet DIY en 5 parties : profil, concurrence, audience, stratégie, score final. To-do lists + template Notion inclus. 37€ - accès immédiat.">
+  <meta name="keywords" content="audit instagram, optimiser instagram, community manager, guide instagram, stratégie instagram, réseaux sociaux petite entreprise, UGC, social media, instagram débutant, audit réseaux sociaux">
+  <meta name="author" content="Community By Laura">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Audite ton Instagram comme une pro - Community By Laura">
+  <meta property="og:description" content="La méthode exacte d'une CM pro à 590€, accessible à toutes pour 37€. Guide DIY complet : profil, concurrence, audience, stratégie. Accès immédiat.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://communitybylaura.github.io">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Audite ton Instagram comme une pro - Community By Laura">
+  <meta name="twitter:description" content="La méthode exacte d'une CM pro à 590€, accessible à toutes pour 37€. Guide DIY complet + template Notion. Accès immédiat.">
+  <link rel="canonical" href="https://communitybylaura.github.io">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    @font-face {
+      font-family: 'Relationship';
+      src: url('Relationship of mélodrame.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+  </style>
+  <style>
+    :root {
+      --font-display: 'Archivo Black', sans-serif;
+      --font-script: 'Relationship', 'Cormorant Garamond', serif;
+      --font-body: 'Poppins', sans-serif;
+      --cream: #f9f6ef;
+      --pink: #eaa2b1;
+      --burgundy: #86010e;
+      --dark: #310f10;
+      --pink-light: #fdf0f3;
+      --cream-dark: #f0ebe0;
+      --white: #ffffff;
+      --muted: rgba(49,15,16,0.55);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-body); background: var(--cream); color: var(--dark); overflow-x: hidden; }
+
+    .w { max-width: 680px; margin: 0 auto; padding: 0 24px; }
+
+    /* ── 1. HERO - HALO EFFECT + RÉSULTAT RÊVÉ ── */
+    .hero {
+      background: var(--dark);
+      padding: 100px 24px 80px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      width: 600px; height: 600px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(234,162,177,0.07) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .hero-inner { position: relative; z-index: 1; text-align: center; width: 100%; }
+
+    .hero-badge {
+      display: inline-flex;
+      margin-left: auto;
+      margin-right: auto;
+      align-items: center;
+      gap: 8px;
+      background: rgba(234,162,177,0.12);
+      border: 1px solid rgba(234,162,177,0.25);
+      border-radius: 40px;
+      padding: 7px 18px;
+      font-size: 11.5px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--pink);
+      margin-bottom: 36px;
+    }
+    .hero-badge span { color: rgba(234,162,177,0.4); }
+
+    .hero-h1 {
+      font-family: var(--font-display);
+      font-size: clamp(64px, 13vw, 118px);
+      line-height: 0.88;
+      color: var(--cream);
+      letter-spacing: 0.015em;
+    }
+    .hero-h1 .italic {
+      font-family: var(--font-script);
+      font-style: italic;
+      font-size: clamp(36px, 8vw, 80px);
+      color: var(--pink);
+      display: block;
+      line-height: 1.2;
+      letter-spacing: 0;
+      text-align: center;
+      width: 100%;
+    }
+
+    .hero-sub {
+      font-size: 16px;
+      line-height: 1.7;
+      color: rgba(249,246,239,0.5);
+      max-width: 500px;
+      margin: 32px auto 0;
+      text-align: center;
+    }
+    .hero-sub strong { color: rgba(249,246,239,0.88); font-weight: 500; }
+
+    /* ── 2. EMPATHIE - "THAT'S ME" MOMENT ── */
+    .empathy {
+      background: var(--cream);
+      padding: 100px 24px;
+      border-bottom: 1px solid rgba(49,15,16,0.06);
+    }
+    .empathy-intro {
+      font-family: var(--font-script);
+      font-size: clamp(28px, 5vw, 42px);
+      font-weight: 600;
+      line-height: 1.3;
+      color: var(--dark);
+      margin-bottom: 48px;
+    }
+    .empathy-intro em { font-style: italic; color: var(--burgundy); }
+
+    .thought-list { display: flex; flex-direction: column; gap: 0; margin-bottom: 60px; }
+
+    .thought {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      padding: 20px 0;
+      border-bottom: 1px solid rgba(49,15,16,0.06);
+      opacity: 1;
+      transform: translateX(0);
+    }
+    .thought.visible { opacity: 1; transform: translateX(0); }
+
+    .thought-quote {
+      font-size: 32px;
+      color: var(--pink);
+      font-family: var(--font-script);
+      line-height: 1;
+      flex-shrink: 0;
+      margin-top: -4px;
+    }
+    .thought-text { font-size: 16px; line-height: 1.6; color: var(--dark); }
+    .thought-text em { font-style: italic; color: var(--muted); font-size: 14px; display: block; margin-top: 4px; }
+
+    .pivot {
+      background: var(--burgundy);
+      border-radius: 6px;
+      padding: 32px 36px;
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+    .pivot-icon { font-size: 26px; flex-shrink: 0; margin-top: 2px; }
+    .pivot-text { font-size: 16px; line-height: 1.7; color: rgba(249,246,239,0.88); }
+    .pivot-text strong { color: var(--cream); font-weight: 600; }
+
+    /* ── 3. AUTORITÉ - PREUVE AVANT L'OFFRE ── */
+    .authority {
+      background: var(--dark);
+      padding: 100px 24px;
+    }
+    .section-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--pink);
+      margin-bottom: 40px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .section-label::before { content: ''; width: 28px; height: 1px; background: var(--pink); display: block; }
+    .section-label.dark { color: var(--burgundy); }
+    .section-label.dark::before { background: var(--burgundy); }
+
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(38px, 7vw, 64px);
+      line-height: 0.95;
+      letter-spacing: 0.02em;
+      margin-bottom: 48px;
+    }
+    .section-title.light { color: var(--cream); }
+    .section-title.dark-col { color: var(--dark); }
+    .section-title em { font-family: var(--font-script); font-style: italic; color: var(--pink); letter-spacing: 0; }
+    .section-title.dark-col em { color: var(--burgundy); }
+
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+      margin-bottom: 60px;
+      border: 1px solid rgba(249,246,239,0.08);
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    @media(max-width:560px){ .stats-row { grid-template-columns: 1fr; } }
+    .stat { background: rgba(249,246,239,0.04); padding: 32px 24px; text-align: center; }
+    .stat-num { font-family: var(--font-display); font-size: 52px; color: var(--pink); line-height: 1; margin-bottom: 8px; }
+    .stat-label { font-size: 12px; color: rgba(249,246,239,0.4); line-height: 1.5; }
+
+    .method-list { display: flex; flex-direction: column; gap: 0; }
+    .method-row {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      padding: 18px 0;
+      border-bottom: 1px solid rgba(249,246,239,0.06);
+    }
+    .method-row:last-child { border-bottom: none; }
+    .method-icon {
+      width: 40px; height: 40px;
+      border-radius: 8px;
+      background: rgba(234,162,177,0.1);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+    .method-row-title { font-size: 14px; font-weight: 600; color: var(--cream); margin-bottom: 2px; }
+    .method-row-sub { font-size: 13px; color: rgba(249,246,239,0.4); }
+    .method-row-tag {
+      margin-left: auto;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--pink);
+      background: rgba(234,162,177,0.1);
+      padding: 4px 10px;
+      border-radius: 20px;
+      flex-shrink: 0;
+    }
+
+    /* ── 4. TRANSFORMATION - AVANT / APRÈS ── */
+    .transformation { background: var(--cream-dark); padding: 100px 24px; }
+
+    .before-after {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    @media(max-width:560px){ .before-after { grid-template-columns: 1fr; } }
+
+    .ba-card { border-radius: 6px; padding: 32px 28px; }
+    .ba-card.before { background: var(--cream); border: 1px solid rgba(49,15,16,0.08); }
+    .ba-card.after { background: var(--burgundy); }
+    .ba-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 20px; display: block; }
+    .ba-card.before .ba-label { color: var(--muted); }
+    .ba-card.after .ba-label { color: rgba(249,246,239,0.5); }
+    .ba-items { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+    .ba-item { display: flex; gap: 12px; align-items: flex-start; font-size: 14px; line-height: 1.5; }
+    .ba-card.before .ba-item { color: rgba(49,15,16,0.65); }
+    .ba-card.after .ba-item { color: rgba(249,246,239,0.85); }
+    .ba-dot {
+      width: 18px; height: 18px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 10px;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .ba-card.before .ba-dot { background: rgba(49,15,16,0.06); color: var(--muted); }
+    .ba-card.after .ba-dot { background: rgba(249,246,239,0.15); color: var(--cream); }
+
+    /* ── 5. OFFRE - PRICE ANCHORING + VALUE STACKING ── */
+    .offer { background: var(--cream); padding: 100px 24px; }
+
+    .value-anchor {
+      background: var(--cream);
+      border: 1px solid rgba(49,15,16,0.08);
+      border-radius: 6px;
+      padding: 20px 24px;
+      margin-bottom: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .value-anchor-label { font-size: 14px; color: var(--dark); font-weight: 500; }
+    .value-anchor-price { font-size: 18px; font-weight: 700; color: var(--muted); text-decoration: line-through; }
+
+    .offer-card {
+      background: var(--dark);
+      border-radius: 8px;
+      padding: 48px 40px;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+    .offer-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--burgundy), var(--pink));
+    }
+    @media(max-width:560px){ .offer-card { padding: 28px 20px; } }
+
+    .offer-tag {
+      display: inline-block;
+      background: rgba(234,162,177,0.12);
+      color: var(--pink);
+      font-size: 10px;
+      font-weight: 700;
+      padding: 5px 14px;
+      border-radius: 20px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+    .price-block { display: flex; align-items: baseline; gap: 16px; margin-bottom: 8px; }
+    .price-main { font-family: var(--font-display); font-size: 80px; line-height: 1; color: var(--cream); letter-spacing: 0.02em; }
+    .price-main sup { font-size: 34px; vertical-align: top; margin-top: 12px; display: inline-block; }
+    .price-crossed { font-size: 22px; font-weight: 400; color: rgba(249,246,239,0.2); text-decoration: line-through; }
+    .price-sub { font-size: 13px; color: rgba(249,246,239,0.35); margin-bottom: 36px; }
+
+    .value-stack {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 32px;
+      padding-bottom: 28px;
+      border-bottom: 1px solid rgba(249,246,239,0.08);
+    }
+    .vs-item { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+    .vs-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      color: rgba(249,246,239,0.75);
+    }
+    .vs-left::before {
+      content: '✓';
+      width: 20px; height: 20px;
+      border-radius: 50%;
+      background: rgba(234,162,177,0.12);
+      color: var(--pink);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 10px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .vs-val { font-size: 12px; color: rgba(249,246,239,0.22); white-space: nowrap; }
+
+    .vs-total {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 28px;
+      border-bottom: 1px solid rgba(249,246,239,0.08);
+      margin-bottom: 28px;
+    }
+    .vs-total-label { font-size: 13px; font-weight: 600; color: rgba(249,246,239,0.4); text-transform: uppercase; letter-spacing: 0.08em; }
+    .vs-total-val { font-size: 16px; font-weight: 700; color: rgba(249,246,239,0.25); text-decoration: line-through; }
+
+    .btn-cta {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      background: var(--burgundy);
+      color: var(--cream);
+      font-family: var(--font-body);
+      font-size: 16px;
+      font-weight: 700;
+      padding: 20px 32px;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: all 0.25s ease;
+      width: 100%;
+      letter-spacing: 0.02em;
+      border: 2px solid var(--burgundy);
+    }
+    .btn-cta:hover { background: transparent; border-color: var(--cream); transform: translateY(-2px); }
+
+    .friction-reducers { display: flex; justify-content: center; gap: 24px; margin-top: 16px; flex-wrap: wrap; }
+    .fr-item { font-size: 12px; color: rgba(249,246,239,0.28); display: flex; align-items: center; gap: 5px; }
+
+    /* ── 6. CRÉDIBILITÉ ── */
+    .credibility {
+      background: var(--pink-light);
+      padding: 80px 24px;
+      border-top: 1px solid rgba(234,162,177,0.2);
+      border-bottom: 1px solid rgba(234,162,177,0.2);
+    }
+    .cred-inner {
+      max-width: 680px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+    @media(max-width:560px){ .cred-inner { grid-template-columns: 1fr; } }
+    .cred-avatar {
+      width: 88px; height: 88px;
+      border-radius: 50%;
+      background: var(--pink);
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--font-display);
+      font-size: 26px;
+      color: var(--dark);
+      letter-spacing: 0.05em;
+      flex-shrink: 0;
+    }
+    .cred-name { font-family: var(--font-script); font-size: 22px; font-weight: 600; color: var(--dark); margin-bottom: 4px; }
+    .cred-role { font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--burgundy); margin-bottom: 12px; }
+    .cred-text { font-size: 14px; line-height: 1.75; color: var(--muted); }
+
+    /* ── 7. OBJECTIONS ── */
+    .objections { background: var(--cream); padding: 80px 24px; }
+    .obj-title {
+      font-family: var(--font-display);
+      font-size: clamp(36px, 6vw, 56px);
+      color: var(--dark);
+      line-height: 0.95;
+      letter-spacing: 0.02em;
+      margin-bottom: 48px;
+    }
+    .obj-title em { font-family: var(--font-script); font-style: italic; color: var(--burgundy); letter-spacing: 0; }
+
+    .obj-list { display: flex; flex-direction: column; gap: 0; }
+    .obj-item { border-bottom: 1px solid rgba(49,15,16,0.07); }
+    .obj-q {
+      width: 100%;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 22px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      text-align: left;
+      font-family: var(--font-body);
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--dark);
+      transition: color 0.2s ease;
+    }
+    .obj-q:hover { color: var(--burgundy); }
+    .obj-icon {
+      width: 26px; height: 26px;
+      border-radius: 50%;
+      border: 1.5px solid rgba(49,15,16,0.15);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 15px;
+      color: var(--burgundy);
+      flex-shrink: 0;
+      transition: all 0.25s ease;
+    }
+    .obj-item.open .obj-icon { background: var(--burgundy); color: var(--cream); border-color: var(--burgundy); transform: rotate(45deg); }
+    .obj-a { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
+    .obj-item.open .obj-a { max-height: 400px; }
+    .obj-a-inner { padding-bottom: 22px; font-size: 14px; line-height: 1.75; color: var(--muted); }
+    .obj-a-inner strong { color: var(--dark); font-weight: 600; }
+
+    /* ── 8. CTA FINAL ── */
+    .final-cta { background: var(--burgundy); padding: 100px 24px; text-align: center; }
+    .final-cta-sub { font-size: 12px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(249,246,239,0.4); margin-bottom: 20px; }
+    .final-cta-title {
+      font-family: var(--font-display);
+      font-size: clamp(44px, 9vw, 84px);
+      color: var(--cream);
+      line-height: 0.92;
+      letter-spacing: 0.02em;
+      margin-bottom: 20px;
+    }
+    .final-cta-title em { font-family: var(--font-script); font-style: italic; color: var(--pink); letter-spacing: 0; }
+    .final-cta-body { font-size: 15px; color: rgba(249,246,239,0.5); max-width: 420px; margin: 0 auto 44px; line-height: 1.7; }
+    .btn-final {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: var(--cream);
+      color: var(--burgundy);
+      font-family: var(--font-body);
+      font-size: 16px;
+      font-weight: 700;
+      padding: 20px 48px;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: all 0.25s ease;
+      letter-spacing: 0.02em;
+      border: 2px solid var(--cream);
+    }
+    .btn-final:hover { background: transparent; color: var(--cream); transform: translateY(-2px); }
+    .final-secure { margin-top: 16px; font-size: 12px; color: rgba(249,246,239,0.28); }
+
+    footer { background: var(--dark); padding: 28px 24px; text-align: center; }
+    footer p { font-size: 12px; color: rgba(249,246,239,0.25); }
+    footer a { color: rgba(249,246,239,0.4); text-decoration: none; }
+    footer a:hover { color: var(--pink); }
+
+    /* ── ANIMATIONS ── */
+    .reveal { opacity: 1; transform: none; }
+
+    @media(max-width:640px){
+      .pivot { padding: 24px; flex-direction: column; gap: 12px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════
+  1. HOOK - HALO EFFECT + RÉSULTAT RÊVÉ
+  Impression formée en 50ms. On montre
+  le résultat rêvé, pas le produit.
+══════════════════════════════════════ -->
+<section class="hero">
+  <div class="w hero-inner">
+    <div class="hero-badge">Community By Laura <span>·</span> Ma méthode pro d'une valeur de 590€</div>
+    <h1 style="text-align:center; width:100%; display:block; padding:0; margin:0;">
+      <span style="display:block; text-align:center; width:100%; font-family:var(--font-script); font-style:italic; font-size:clamp(52px, 10vw, 110px); color:var(--pink); line-height:1.1; letter-spacing:0;">ton instagram</span>
+      <span style="display:block; text-align:center; width:100%; font-family:var(--font-display); font-size:clamp(44px, 8vw, 96px); color:var(--cream); line-height:0.95; letter-spacing:0.02em;">ENFIN OPTIMISÉ.</span>
+    </h1>
+    <p class="hero-sub">
+      Chaque jour sans stratégie claire, c'est <strong>des abonnés, des clients et de la visibilité</strong> que tu laisses filer.<br>
+      Il est temps de savoir exactement où ça coince.
+    </p>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+  2. EMPATHIE - "THAT'S ME" MOMENT
+  On parle d'eux avant de parler de nous.
+  Chaque pensée = quelque chose qu'ils
+  ont déjà pensé mot pour mot.
+══════════════════════════════════════ -->
+<section class="empathy reveal">
+  <div class="w">
+    <h2 class="empathy-intro">
+      Tu travailles dur.<br>
+      Ton compte, lui,<br>
+      <em>ne le montre pas.</em>
+    </h2>
+    <div class="thought-list">
+      <div class="thought">
+        <div class="thought-quote">"</div>
+        <div class="thought-text">
+          Je poste régulièrement mais mon engagement ne décolle pas.
+          <em>Pourtant des comptes similaires ont 10x plus de résultats.</em>
+        </div>
+      </div>
+      <div class="thought">
+        <div class="thought-quote">"</div>
+        <div class="thought-text">
+          Je ne sais pas si ce que je fais est vraiment juste ou si je perds mon temps.
+          <em>Personne ne me donne de retour objectif.</em>
+        </div>
+      </div>
+      <div class="thought">
+        <div class="thought-quote">"</div>
+        <div class="thought-text">
+          Les accompagnements à 500€+ c'est hors budget pour l'instant.
+          <em>Alors je continue à avancer à l'aveugle.</em>
+        </div>
+      </div>
+      <div class="thought">
+        <div class="thought-quote">"</div>
+        <div class="thought-text">
+          J'en ai marre des conseils génériques qui ne s'appliquent pas à MON compte.
+          <em>Je veux comprendre ce qui se passe chez moi, pas chez les autres.</em>
+        </div>
+      </div>
+    </div>
+    <div class="pivot">
+      <div class="pivot-icon">💡</div>
+      <p class="pivot-text">
+        Ce que tu décris, c'est un problème de <strong>méthode</strong>, pas de talent. Tu n'as jamais eu les bons outils pour analyser ton compte correctement. Ce guide te donne exactement ça - <strong>la même méthode que j'utilise pour mes clients à 590€</strong>, pour que tu puisses le faire toi-même.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+  3. AUTORITÉ - PREUVE AVANT L'OFFRE
+  On prouve la valeur AVANT d'annoncer
+  le prix. Authority Bias : chiffres
+  et méthode structurée.
+══════════════════════════════════════ -->
+<section class="authority reveal">
+  <div class="w">
+    <p class="section-label">Ce que tu reçois</p>
+    <h2 class="section-title light">
+      La méthode<br>
+      <em>sans le prix</em><br>
+      DE L'AGENCE.
+    </h2>
+    <div class="stats-row">
+      <div class="stat">
+        <div class="stat-num">5</div>
+        <div class="stat-label">parties<br>complètes</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">29</div>
+        <div class="stat-label">points<br>analysés</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">590€</div>
+        <div class="stat-label">valeur de la<br>méthode originale</div>
+      </div>
+    </div>
+    <div class="method-list">
+      <div class="method-row">
+        <div class="method-icon">📱</div>
+        <div>
+          <div class="method-row-title">Audit complet de ton compte</div>
+          <div class="method-row-sub">Profil, posts, cohérence visuelle, SEO social - score sur 29</div>
+        </div>
+        <div class="method-row-tag">Partie 1</div>
+      </div>
+      <div class="method-row">
+        <div class="method-icon">🔍</div>
+        <div>
+          <div class="method-row-title">Analyse de ta concurrence</div>
+          <div class="method-row-sub">Benchmark, stratégie adverse, opportunités non exploitées</div>
+        </div>
+        <div class="method-row-tag">Partie 2</div>
+      </div>
+      <div class="method-row">
+        <div class="method-icon">👥</div>
+        <div>
+          <div class="method-row-title">Analyse de ton audience</div>
+          <div class="method-row-sub">Profil réel, commentaires, adéquation contenu / cible</div>
+        </div>
+        <div class="method-row-tag">Partie 3</div>
+      </div>
+      <div class="method-row">
+        <div class="method-icon">🎯</div>
+        <div>
+          <div class="method-row-title">Piliers de contenu + plan 30 jours</div>
+          <div class="method-row-sub">Objectifs, formats, calendrier éditorial prêt à l'emploi</div>
+        </div>
+        <div class="method-row-tag">Partie 4</div>
+      </div>
+      <div class="method-row">
+        <div class="method-icon">⭐</div>
+        <div>
+          <div class="method-row-title">Score final + actions prioritaires</div>
+          <div class="method-row-sub">Tu sais exactement où tu en es et quoi faire en premier</div>
+        </div>
+        <div class="method-row-tag">Partie 5</div>
+      </div>
+      <div class="method-row">
+        <div class="method-icon">🎨</div>
+        <div>
+          <div class="method-row-title">Template Notion offert</div>
+          <div class="method-row-sub">Calendrier de contenu prêt à l'emploi pour planifier tes 30 prochains jours</div>
+        </div>
+        <div class="method-row-tag">Bonus</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+  4. TRANSFORMATION - DESIRE (AIDA)
+  Visualiser la transformation réduit
+  le risque perçu et crée l'envie.
+══════════════════════════════════════ -->
+<section class="transformation reveal">
+  <div class="w">
+    <p class="section-label dark">La transformation</p>
+    <h2 class="section-title dark-col">
+      De "je ne comprends<br>pas pourquoi ça bloque"<br>
+      <em>à "je sais exactement quoi faire."</em>
+    </h2>
+    <div class="before-after">
+      <div class="ba-card before">
+        <span class="ba-label">Avant ce guide</span>
+        <ul class="ba-items">
+          <li class="ba-item"><div class="ba-dot">✕</div>Tu postes sans savoir si c'est efficace</li>
+          <li class="ba-item"><div class="ba-dot">✕</div>Tu ignores ce que tes concurrents font mieux</li>
+          <li class="ba-item"><div class="ba-dot">✕</div>Ton contenu ne parle pas vraiment à ta cible</li>
+          <li class="ba-item"><div class="ba-dot">✕</div>Pas de stratégie ni de piliers définis</li>
+          <li class="ba-item"><div class="ba-dot">✕</div>Tu avances sans retour objectif</li>
+        </ul>
+      </div>
+      <div class="ba-card after">
+        <span class="ba-label">Après ce guide</span>
+        <ul class="ba-items">
+          <li class="ba-item"><div class="ba-dot">✓</div>Tu sais exactement ce qui performe et pourquoi</li>
+          <li class="ba-item"><div class="ba-dot">✓</div>Tu connais tes opportunités de différenciation</li>
+          <li class="ba-item"><div class="ba-dot">✓</div>Ton contenu est aligné avec ta cible</li>
+          <li class="ba-item"><div class="ba-dot">✓</div>Tu as un plan éditorial clair sur 30 jours</li>
+          <li class="ba-item"><div class="ba-dot">✓</div>Tu as un score et des priorités actionnables</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+  5. OFFRE - PRICE ANCHORING + VALUE STACK
+  On montre la valeur AVANT le prix.
+  L'ancre à 590€ rend les 37€ évidents.
+══════════════════════════════════════ -->
+<section class="offer reveal" id="offre">
+  <div class="w">
+    <p class="section-label dark">L'offre</p>
+    <h2 class="section-title dark-col">
+      590€ de méthode.<br>
+      <em>À 37€.</em>
+    </h2>
+    <div class="value-anchor">
+      <span class="value-anchor-label">Audit Instagram professionnel complet</span>
+      <span class="value-anchor-price">590 €</span>
+    </div>
+    <div class="offer-card">
+      <div class="offer-tag">✦ Accès immédiat</div>
+      <div class="price-block">
+        <div class="price-main"><sup>€</sup>37</div>
+        <div class="price-crossed">590€</div>
+      </div>
+      <p class="price-sub">Paiement unique - Accès à vie - Livraison instantanée</p>
+      <ul class="value-stack">
+        <li class="vs-item"><span class="vs-left">Page Canva modifiable - cases à cocher, zones d'écriture</span><span class="vs-val">valeur 590€</span></li>
+        <li class="vs-item"><span class="vs-left">Guide PDF interactif - cases à cocher et zones d'écriture</span><span class="vs-val">inclus</span></li>
+        <li class="vs-item"><span class="vs-left">Tableaux de benchmarking concurrents</span><span class="vs-val">inclus</span></li>
+        <li class="vs-item"><span class="vs-left">Système de score sur 29 points</span><span class="vs-val">inclus</span></li>
+        <li class="vs-item"><span class="vs-left">Plan d'actions prioritaires en 3 niveaux</span><span class="vs-val">inclus</span></li>
+        <li class="vs-item"><span class="vs-left">Template Notion offert</span><span class="vs-val">bonus</span></li>
+      </ul>
+      <a href="[LIEN STRIPE]" class="btn-cta">Accéder au guide pour 37 € →</a>
+      <div class="friction-reducers">
+        <span class="fr-item">🔒 Paiement sécurisé</span>
+        <span class="fr-item">📩 Livraison immédiate</span>
+        <span class="fr-item">♾️ Accès à vie</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+  6. CRÉDIBILITÉ - AUTHORITY BIAS
+  Court. Personnel. Orienté vers elles,
+  pas vers moi.
+══════════════════════════════════════ -->
+<section class="credibility reveal">
+  <div class="cred-inner">
+    <div class="cred-avatar">CBL</div>
+    <div>
+      <p class="cred-role">Community Manager & Créatrice UGC</p>
+      <h3 class="cred-name">Community By Laura</h3>
+      <p class="cred-text">J'utilise cette méthode pour chaque client qui me confie son audit professionnel à 590€. Ce guide, c'est exactement la même chose - mais pour que tu puisses le faire toi-même, maintenant, sans attendre d'avoir le budget. Parce que comprendre ce qui bloque ton compte, ça ne devrait pas être un luxe.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+  7. OBJECTIONS - COGNITIVE FLUENCY
+  Répondre aux objections avant qu'elles
+  soient posées élimine les résistances.
+══════════════════════════════════════ -->
+<section class="objections reveal">
+  <div class="w">
+    <h2 class="obj-title">Tu te demandes<br><em>encore si c'est pour toi ?</em></h2>
+    <div class="obj-list">
+      <div class="obj-item">
+        <button class="obj-q" onclick="toggleObj(this)">Je n'ai aucune connaissance en marketing. Je vais m'en sortir ?<span class="obj-icon">+</span></button>
+        <div class="obj-a"><div class="obj-a-inner">Oui, complètement. Ce guide est fait <strong>exactement pour les débutantes</strong>. Chaque terme est expliqué, chaque action vient avec un "où regarder". Si tu sais utiliser Instagram, tu peux utiliser ce guide.</div></div>
+      </div>
+      <div class="obj-item">
+        <button class="obj-q" onclick="toggleObj(this)">J'ai très peu d'abonnés. Ça sert à quelque chose de faire un audit ?<span class="obj-icon">+</span></button>
+        <div class="obj-a"><div class="obj-a-inner"><strong>Encore plus utile en début de parcours.</strong> Mieux vaut corriger les fondations maintenant que reconstruire dans 6 mois. Ce guide t'évite les erreurs que tout le monde fait au démarrage.</div></div>
+      </div>
+      <div class="obj-item">
+        <button class="obj-q" onclick="toggleObj(this)">Quelle différence avec ton audit professionnel à 590€ ?<span class="obj-icon">+</span></button>
+        <div class="obj-a"><div class="obj-a-inner">Ce guide te donne la méthode pour analyser ton compte toi-même - c'est un outil de travail autonome.<br><br>L'audit professionnel à 590€ c'est une toute autre expérience : <strong>on échange ensemble</strong> pour comprendre en profondeur ton activité, ta cible et tes objectifs. Je réalise ensuite une analyse complète de ton compte et de tes concurrents, et je te livre un <strong>document de +50 pages</strong> entièrement personnalisé. La restitution n'est pas juste une présentation - c'est une <strong>vraie session de formation</strong> où je t'explique les bonnes pratiques adaptées à ta situation, pour que tu repartes avec une vision claire et les clés pour agir.<br><br>Ce guide = tu t'analyses toi-même. L'audit = je le fais pour toi, avec toi.</div></div>
+      </div>
+      <div class="obj-item">
+        <button class="obj-q" onclick="toggleObj(this)">Comment je reçois le guide après l'achat ?<span class="obj-icon">+</span></button>
+        <div class="obj-a"><div class="obj-a-inner">Tu reçois un email immédiatement avec le lien de téléchargement du PDF et du template Notion. Si tu ne reçois rien dans les 5 minutes, vérifie tes spams ou contacte-moi directement.</div></div>
+
+      <div class="obj-item">
+        <button class="obj-q" onclick="toggleObj(this)">Si j'ai des questions après l'achat, comment je fais ?<span class="obj-icon">+</span></button>
+        <div class="obj-a"><div class="obj-a-inner">Je suis joignable par mail à <strong><a href="/cdn-cgi/l/email-protection#f09c91858291969182999e91de80829fb0979d91999cde939f9d" style="color:var(--burgundy);text-decoration:none;"><span class="__cf_email__" data-cfemail="b4d8d5c1c6d5d2d5c6dddad59ac4c6dbf4d3d9d5ddd89ad7dbd9">[email&#160;protected]</span></a></strong> pour toute question relative au guide. Je réponds sous 24h, hors week-ends et jours fériés.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+  UPSELL - AUDIT STRATÉGIQUE
+  Tu as appliqué la méthode. Tu veux
+  aller encore plus loin ? Je le fais
+  pour toi.
+══════════════════════════════════════ -->
+<section style="background:var(--cream-dark); padding:100px 24px; border-top:1px solid rgba(49,15,16,0.07);">
+  <div class="w">
+
+    <p class="section-label dark">Tu veux aller plus loin ?</p>
+    <h2 class="section-title dark-col" style="margin-bottom:16px;">
+      Laisse-moi le faire<br>
+      <em>pour toi.</em>
+    </h2>
+    <p style="font-size:15px; line-height:1.75; color:var(--muted); margin-bottom:48px; max-width:560px;">
+      Tu as entre les mains la méthode. Mais si tu veux un regard extérieur expert, un document complet de +50 pages entièrement personnalisé et une vraie session de formation à la restitution - l'audit stratégique est fait pour toi.
+    </p>
+
+    <div style="background:var(--dark); border-radius:8px; padding:48px 40px; position:relative; overflow:hidden;">
+
+      <!-- Badge promo -->
+      <div style="position:absolute; top:0; right:0; background:var(--burgundy); color:var(--cream); font-size:11px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; padding:10px 20px; border-radius:0 0 0 8px;">
+        -100€ pour toi
+      </div>
+
+      <div style="display:inline-block; background:rgba(234,162,177,0.12); color:var(--pink); font-size:10px; font-weight:700; padding:5px 14px; border-radius:20px; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:24px;">
+        Offre exclusive - lecteurs du guide
+      </div>
+
+      <!-- Prix avec barré -->
+      <div style="display:flex; align-items:baseline; gap:20px; margin-bottom:8px; flex-wrap:wrap;">
+        <div style="font-family:var(--font-display); font-size:80px; line-height:1; color:var(--cream); letter-spacing:0.02em;"><sup style="font-size:34px; vertical-align:top; margin-top:12px; display:inline-block;">€</sup>490</div>
+        <div>
+          <div style="font-size:22px; font-weight:400; color:rgba(249,246,239,0.2); text-decoration:line-through;">590 €</div>
+          <div style="font-size:13px; color:rgba(249,246,239,0.35); margin-top:4px;">au lieu de 590 € - 100 € de réduction</div>
+        </div>
+      </div>
+      <p style="font-size:13px; color:rgba(249,246,239,0.35); margin-bottom:36px;">Paiement unique - Mission one-shot</p>
+
+      <!-- Ce qui est inclus -->
+      <ul style="list-style:none; display:flex; flex-direction:column; gap:10px; margin-bottom:36px; padding-bottom:32px; border-bottom:1px solid rgba(249,246,239,0.08);">
+        <li style="display:flex; align-items:flex-start; gap:10px; font-size:14px; color:rgba(249,246,239,0.75);">
+          <span style="width:20px; height:20px; border-radius:50%; background:rgba(234,162,177,0.12); color:var(--pink); display:flex; align-items:center; justify-content:center; font-size:10px; font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>
+          Échange préalable pour comprendre ton activité, ta cible et tes objectifs
+        </li>
+        <li style="display:flex; align-items:flex-start; gap:10px; font-size:14px; color:rgba(249,246,239,0.75);">
+          <span style="width:20px; height:20px; border-radius:50%; background:rgba(234,162,177,0.12); color:var(--pink); display:flex; align-items:center; justify-content:center; font-size:10px; font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>
+          Audit complet de ton compte + analyse de 3 à 5 concurrents
+        </li>
+        <li style="display:flex; align-items:flex-start; gap:10px; font-size:14px; color:rgba(249,246,239,0.75);">
+          <span style="width:20px; height:20px; border-radius:50%; background:rgba(234,162,177,0.12); color:var(--pink); display:flex; align-items:center; justify-content:center; font-size:10px; font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>
+          Document personnalisé de +50 pages livré en PDF
+        </li>
+        <li style="display:flex; align-items:flex-start; gap:10px; font-size:14px; color:rgba(249,246,239,0.75);">
+          <span style="width:20px; height:20px; border-radius:50%; background:rgba(234,162,177,0.12); color:var(--pink); display:flex; align-items:center; justify-content:center; font-size:10px; font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>
+          Session de restitution 45 min - je te forme aux bonnes pratiques adaptées à ta situation
+        </li>
+        <li style="display:flex; align-items:flex-start; gap:10px; font-size:14px; color:rgba(249,246,239,0.75);">
+          <span style="width:20px; height:20px; border-radius:50%; background:rgba(234,162,177,0.12); color:var(--pink); display:flex; align-items:center; justify-content:center; font-size:10px; font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>
+          15 recommandations priorisées + plan éditorial 30 jours offert
+        </li>
+        <li style="display:flex; align-items:flex-start; gap:10px; font-size:14px; color:rgba(249,246,239,0.75);">
+          <span style="width:20px; height:20px; border-radius:50%; background:rgba(234,162,177,0.12); color:var(--pink); display:flex; align-items:center; justify-content:center; font-size:10px; font-weight:700; flex-shrink:0; margin-top:1px;">✓</span>
+          Support 7 jours après la restitution
+        </li>
+      </ul>
+
+      <a href="/cdn-cgi/l/email-protection#315d50444350575043585f501f41435e71565c50585d1f525e5c0e4244535b5452450c7044555845140301624543504514720214700856584044541403011c1403017e5757435414030105080114740314090314707217535e55480c735e5f5b5e44431403017d504443501403721401701401707b165058140301505240445842140301455e5f140301564458555414030154451403015b1650585c5443505842140301545f1403014250475e5843140301415d44421403014244431403015d165044555845140301424543504514720214700856584044541403011472021470011403010508011474031409031470721f1401701401707c5443525814030110" style="display:flex; align-items:center; justify-content:center; gap:12px; background:var(--burgundy); color:var(--cream); font-family:var(--font-body); font-size:16px; font-weight:700; padding:20px 32px; border-radius:4px; text-decoration:none; width:100%; letter-spacing:0.02em; border:2px solid var(--burgundy); transition:all 0.25s ease; box-sizing:border-box;">
+        Je veux mon audit à 490 € →
+      </a>
+
+      <p style="text-align:center; font-size:12px; color:rgba(249,246,239,0.28); margin-top:14px;">
+        📩 Tu seras redirigée vers un mail - je te réponds sous 24h pour organiser ta mission
+      </p>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+  8. CTA FINAL - LOSS AVERSION
+  On rappelle ce qu'ils PERDENT en ne
+  passant pas à l'action. Un seul bouton.
+══════════════════════════════════════ -->
+<section class="final-cta">
+  <div class="w">
+    <p class="final-cta-sub">Dernière question à te poser</p>
+    <h2 class="final-cta-title">Dans 30 jours,<br>ton compte<br><em>aura-t-il changé ?</em></h2>
+    <p class="final-cta-body">Pas si tu continues sans méthode. Le guide te donne exactement ce qu'il faut pour que la réponse soit oui.</p>
+    <a href="[LIEN STRIPE]" class="btn-final">Je veux débloquer ma visibilité → 37 €</a>
+    <p class="final-secure">🔒 Paiement sécurisé · Accès immédiat · Template Notion inclus</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Community By Laura · Tous droits réservés · <a href="#">Mentions légales</a></p>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  function toggleObj(btn) {
+    const item = btn.closest('.obj-item');
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.obj-item').forEach(el => el.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  }
+
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.reveal')
